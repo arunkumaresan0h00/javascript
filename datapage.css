@@ -1,0 +1,92 @@
+header {
+    font-size: 35px;
+    text-align: center
+}
+
+.search_box {
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;
+    border: 2px solid #e1e4e8;
+    margin: auto;
+    border-radius: 73px;
+    width: 452px;
+    background-color: #ececed;
+}
+
+.search {
+    border: hidden;
+}
+
+.local {
+    font-size: 30px;
+}
+
+.local_one {
+    border-bottom-style: double;
+}
+
+.main-content {
+    background-color: #00bcd452;
+    width: 840px;
+    height: 740px;
+    margin: auto;
+}
+
+.main-content div {
+    background-color: #9746d2;
+    margin: 22px;
+    color: white;
+}
+
+.content {
+    background-color: #7ad6b4e0;
+    margin: 30px;
+    height: auto;
+    width:75%;
+    float: right;
+}
+
+.content ul {
+    width: 285px;
+    height: auto;
+}
+
+.mystyle {
+    width: 222px;
+    margin: 30px;
+    box-shadow: 10px 15px #402525;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    list-style-type: disclosure-closed;
+    display: inline-block;
+}
+
+.swal2-container.swal2-center>.swal2-popup {
+    height: 230px;
+    font-size: 14px;
+}
+
+.left-content {
+    display: grid;
+    float: left;
+    width: 20%;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: -30px;
+    height: 400px;
+}
+.left{
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+}
+.left li
+{
+    margin: 30px 0px;
+}
+.mystyle:hover{
+    transform: scale(1.2);
+}
